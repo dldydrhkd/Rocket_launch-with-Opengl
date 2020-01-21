@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/assimp-3.0.1270/contrib/zlib/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  zutil.c
+  zlib.vcxproj -> C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\assimp-3.0.1270\contrib\zlib\Debug\zlibd.lib

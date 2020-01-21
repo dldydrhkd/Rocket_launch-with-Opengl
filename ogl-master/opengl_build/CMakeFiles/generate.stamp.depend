@@ -1,0 +1,32 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/WindowsPaths.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/CMakeLists.txt
+C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/rpavlik-cmake-modules-fe2273/CleanDirectoryList.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/rpavlik-cmake-modules-fe2273/CreateLaunchers.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/rpavlik-cmake-modules-fe2273/ListCombinations.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/rpavlik-cmake-modules-fe2273/MSVCMultipleProcessCompile.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/rpavlik-cmake-modules-fe2273/launcher-templates/targetlauncher.cmd.in
+C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/rpavlik-cmake-modules-fe2273/launcher-templates/vcxproj.user.in
+C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/3.15.4/CMakeCCompiler.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/3.15.4/CMakeCXXCompiler.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/3.15.4/CMakeRCCompiler.cmake
+C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/3.15.4/CMakeSystem.cmake

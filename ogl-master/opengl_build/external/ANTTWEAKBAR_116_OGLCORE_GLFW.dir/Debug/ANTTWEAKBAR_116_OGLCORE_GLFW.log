@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/external/CMakeLists.txt
+  LoadOGL.cpp
+  LoadOGLCore.cpp
+  TwColors.cpp
+  TwBar.cpp
+c:\users\sksda\onedrive\documents\ogl-master\ogl-master\external\anttweakbar-1.16\src\TwFonts.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\AntTweakBar-1.16\src\TwBar.cpp)
+c:\users\sksda\onedrive\documents\ogl-master\ogl-master\external\anttweakbar-1.16\src\TwFonts.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\AntTweakBar-1.16\src\TwBar.cpp)
+  TwFonts.cpp
+  TwMgr.cpp
+  TwOpenGL.cpp
+  'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe'에서 내부 컴파일러 오류
+      자세한 내용을 보려면 Visual C++ [도움말] 메뉴에서
+   [기술 지원] 명령을 선택하거나 기술 지원 도움말 파일을 참조하십시오.

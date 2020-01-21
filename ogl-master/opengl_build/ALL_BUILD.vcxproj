@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A60ACAF1-6CFE-3452-BEB8-1FC3E7C7FF41}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master -BC:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build --check-stamp-file C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master -BC:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build --check-stamp-file C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master -BC:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build --check-stamp-file C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sksda/OneDrive/Documents/ogl-master/ogl-master -BC:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build --check-stamp-file C:/Users/sksda/OneDrive/Documents/ogl-master/opengl_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\sksda\OneDrive\Documents\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\ZERO_CHECK.vcxproj">
+      <Project>{36D162D2-85A5-3A6C-B926-A73D1ED80419}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>{FFD00EF1-E1D1-3E9F-8CC4-BFE63B4B4E1D}</Project>
+      <Name>ANTTWEAKBAR_116_OGLCORE_GLFW</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\bullet-2.81-rev2613\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{78E6A0B5-AC3C-3987-BC82-8744761671EC}</Project>
+      <Name>BulletCollision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\bullet-2.81-rev2613\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{195D0DBE-2695-3BF2-A129-822A8D6667FC}</Project>
+      <Name>BulletDynamics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\bullet-2.81-rev2613\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{A60DD0F5-9920-31A3-A6EC-B07737DB970C}</Project>
+      <Name>BulletSoftBody</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\GLEW_1130.vcxproj">
+      <Project>{C3FC994A-240C-349B-8854-99498DB2ED66}</Project>
+      <Name>GLEW_1130</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\bullet-2.81-rev2613\src\LinearMath\LinearMath.vcxproj">
+      <Project>{2350573E-EEEA-3AED-9F1F-89E599F72225}</Project>
+      <Name>LinearMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\assimp-3.0.1270\code\assimp.vcxproj">
+      <Project>{1C7DD508-BB4F-3C1A-9367-84FBCBF831C2}</Project>
+      <Name>assimp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{C094E348-4580-3CE1-B87E-CEC4C41927A9}</Project>
+      <Name>boing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{23F10805-1C3E-3AC8-B5CB-DA45EA41ACC7}</Project>
+      <Name>clipboard</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{F678C46A-046F-3F17-B20A-15AC5C2B7EC0}</Project>
+      <Name>cursor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{B8601B21-B97C-3D99-A6D6-9090B1AF2AEF}</Project>
+      <Name>empty</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{A7F7961F-C0C2-32B9-B53E-DE2F8635E6DB}</Project>
+      <Name>events</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{22D60D0E-4515-39C1-80B6-345B55F3D208}</Project>
+      <Name>gamma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{95E8E10C-FD71-3320-BFD9-EB2FFAAB0367}</Project>
+      <Name>gears</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{9FD84A24-9130-3958-8CAE-48A4EAA0D39C}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{41C6968B-9D27-3319-B626-D50121A9CB1B}</Project>
+      <Name>glfwinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{CB3DDB31-C91E-332F-A69C-24A7C1ADCF8F}</Project>
+      <Name>heightmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{B9F2FEE9-AEF5-3F34-B94F-CBAF6ED86722}</Project>
+      <Name>iconify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{FC8E9581-9242-30A0-BCBA-2B541E2DF79F}</Project>
+      <Name>joysticks</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{488CF6FF-BA74-3E19-9172-DE5866C0F09C}</Project>
+      <Name>monitors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{FC9DDDA7-2747-3EAB-852D-A800D1401281}</Project>
+      <Name>msaa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{AD29F197-A370-36DA-A697-E3DD1BA7731C}</Project>
+      <Name>particles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{F217F8F7-BC68-3677-A85B-6C5518812E56}</Project>
+      <Name>reopen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{5472883D-450C-3F3C-8DDD-654087088D2C}</Project>
+      <Name>sharing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{B5625E8D-6056-31A6-9411-5C2B2B879BAB}</Project>
+      <Name>simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{F3980AB3-C1F9-33D9-BD9A-37F673702E1D}</Project>
+      <Name>splitview</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{0816A68A-FEF6-381B-9751-4AF104EDD8BF}</Project>
+      <Name>tearing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{A32E5ED7-6323-36B2-BB78-2F9CCFCEF939}</Project>
+      <Name>threads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{2CD9D7DB-60EC-3A91-8805-DFD9FFA253E2}</Project>
+      <Name>title</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\tutorial05_textured_cube.vcxproj">
+      <Project>{B350CDB0-493C-37FF-91E2-F5B8FC0F34F1}</Project>
+      <Name>tutorial05_textured_cube</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{91E25077-060B-3B52-BAFF-2C06200723A1}</Project>
+      <Name>wave</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{07DB1496-F6FE-35F1-97F6-14C6C6B42241}</Project>
+      <Name>windows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sksda\OneDrive\Documents\ogl-master\opengl_build\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
+      <Project>{1E1D6147-684F-399F-AFF5-3E84D802EFAF}</Project>
+      <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
